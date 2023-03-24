@@ -4,5 +4,5 @@ This is random answer generator with simple code that helped me become familar w
 What did I learned from making this:
 - utilizing layout and placement of items using CSS
 - how to make and use a simple array using JavaScript
-- using setTimeout() function and fade-in and fade-out effect using JavaScript
+- understanding how setTimeout() function works and fade-in and fade-out effect using JavaScript
 
