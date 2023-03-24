@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Merienda+One&display=swap');
+
+/* start of code from https://www.w3schools.com/howto/howto_css_full_page.asp */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #CBCEE1;
+    font-family: 'Righteous';
+}
+/* end of code from https://www.w3schools.com/howto/howto_css_full_page.asp */
+
+/* start of code from https://www.w3schools.com/html/html_images_background.asp */
+.bg {
+    background-image: url('../img/Background_2.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+/* end of code from https://www.w3schools.com/html/html_images_background.asp */
+
+.container {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* start of code from https://www.w3schools.com/css/css_positioning.asp */
+.crystal-ball {
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 20%;
+    left: 3%;
+    right: 0;
+}
+/* end of code from https://www.w3schools.com/css/css_positioning.asp */
+
+#response {
+    position: absolute;
+    font-family: 'Merienda One', cursive;
+    font-size: 25px;
+    width: 230px;
+    text-align: center;
+    top: 27%;
+    left: 36%;
+    color: #B7C6EF;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+/* start of code from https://www.youtube.com/watch?v=UInN6O_nMKs&t=165s */
+.fade-in {
+   opacity: 1 !important;
+}
+
+@keyframes .fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* end of code from https://www.youtube.com/watch?v=UInN6O_nMKs&t=165s */
+
+#main-container {
+    position: absolute;
+    width: 180px;
+    height: 300px;
+    background: #2D2F76;
+    border-radius: 20px;
+    margin: auto;
+    top: 20%;
+    bottom: 70%;
+    left: 60%;
+    right: 20%;
+}
+
+.image img {
+    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    position: fixed;
+    margin: auto;
+    padding: 15px 10px;
+    top: 4%;
+    bottom: 30%;
+    left: 40%;
+    right: 0;
+}
+
+.content-container {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    background: #C2BEDF;
+    border-radius: 15px;
+    margin: 25px 15px 25px 15px;
+    text-align: center;
+}
+
+label.question {
+    color: #6180AF;
+    font-family: 'Corben';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 5px 10px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 5px 10px;
+    margin: 12px 7px;
+    box-sizing: border-box;
+    border: 0.5px solid #7870B3;
+    border-radius: 30px;
+    outline: none;
+    background-color: #FFFFFF;
+    color: #6180AF;
+}
+
+input[type=text]:focus {
+    background-color: #dce3f8;
+}
+
+.btn {
+    width: 120px;
+    display: inline-block;
+    background-color: #554C9D;
+    color: #B7C6EF;
+    border: none;
+    border-radius: 12px;
+    margin: 7px 10px;
+    padding: 20px 7px;
+    font-family: 'Corben', cursive;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    justify-content: center;
+    overflow-wrap: break-word;
+    line-height: 20px;
+}
+
+.btn:hover {
+    background-color: #968aee;
+}
+
+/* start of code from https://flaviocopes.com/rotate-image/ */
+.smoke {
+    width: 200px;
+    height: 230px;
+    max-width: 100%;
+    max-height: 100%;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 20%;
+    left: 3%;
+    right: 0;
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+/* end of code from https://flaviocopes.com/rotate-image/ */

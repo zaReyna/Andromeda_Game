@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andromeda: Witness Your Fortune</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="./css/design.css">
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="container">
+        <img class="crystal-ball" src="img/CrystalBall_2.png" alt="The Magic Crystal Ball">
+        <img class="smoke" src="img/Smoke.png" alt="Magical Smoke">
+        <div id="response"></div>
+    </div>
+    <!--end of container-->
+    <div id="main-container">
+        <form>
+            <div class="content-container">
+                <br>
+                <label class="question">Ask the Oracle a question</label>
+                <input type="text" id="question" placeholder="?" autocomplete="off" required>
+                <button type="button" onclick="checkForm()" id="button" class="btn">Reveal your future</button>
+            </div>
+            <!--end of content-container-->
+        </form>
+    </div>
+    <!--end of main-container-->
+    <!-- Javascript goes after the page -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
